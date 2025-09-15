@@ -46,10 +46,10 @@ const Header = () => {
             <nav className="nav">
               <ul className="nav-links">
                 <li onClick={() => handleScroll("middle")}>Home</li>
-                <li onClick={() => handleScroll("about")}>About</li>
-                <li onClick={() => handleScroll("services")}>Services</li>
                 <li onClick={() => handleScroll("techstack")}>Technology</li>
-                <li onClick={() => handleScroll("blogs")}>Blogs</li>
+                <li onClick={() => handleScroll("services")}>Services</li>
+                <li onClick={() => handleScroll("blogs")}>Blog</li>
+                <li onClick={() => handleScroll("about")}>About</li>
               </ul>
             </nav>
 
@@ -79,10 +79,10 @@ const Header = () => {
           <div className="mobile-menu-content">
             <ul className="mobile-nav-links">
               <li onClick={() => handleScroll("middle")}>Home</li>
-              <li onClick={() => handleScroll("about")}>About</li>
-              <li onClick={() => handleScroll("services")}>Services</li>
               <li onClick={() => handleScroll("techstack")}>Technology</li>
-              <li onClick={() => handleScroll("blogs")}>Blogs</li>
+              <li onClick={() => handleScroll("services")}>Services</li>
+              <li onClick={() => handleScroll("blogs")}>Blog</li>
+              <li onClick={() => handleScroll("about")}>About</li>
               <li onClick={() => handleScroll("contact")}>Contact</li>
             </ul>
           </div>

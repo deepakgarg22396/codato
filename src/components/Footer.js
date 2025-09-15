@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./footer.css";
-import AnimatedCursor from "react-animated-cursor";
 
 const Footer = () => {
   const [showTerms, setShowTerms] = useState(false);
@@ -8,24 +7,6 @@ const Footer = () => {
 
   return (
     <>
-      {/* Animated Cursor for Entire Page */}
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={35}
-        color="255, 255, 255"
-        outerAlpha={0.3}
-        innerScale={1.5}
-        outerScale={2.5}
-        showSystemCursor={true} // Ensure system cursor is visible
-        clickables={[
-          "a",
-          "button",
-          ".link",
-          ".modal-content",
-          ".modal-overlay",
-        ]}
-      />
-
       <footer className="footer" id="about">
         <div className="footer-top">
           {/* Logo Section */}
